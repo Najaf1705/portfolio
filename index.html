@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#">Najaf</a>
+    </div>
+    <label for="check" class="icons" id="icons">
+      <i class="fa-solid fa-bars" id="imen"></i>
+    </label>
+    <input type="checkbox" id="check">
+    <div class="menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#work">My work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="home" id="home">
+    <div class="conhome">
+      <div class="mhome">
+        Hello<span class="hand">👋</span>, I'm <span>Najaf Shaikh</span> a <br> <span>Computer Science Engineer.</span>
+      </div>
+      <a href="#contact"><button>Contact Me</button></a>
+      
+      <div  class="chome">
+        <a href="https://github.com/Najaf1705" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/najaf-shaikh-9955bb204/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/_.najaf17._/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/__Najaf17__" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_.najaf17._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="imghome">
+      <div class="mimgdiv">
+        <div class="imgdiv" id="imgdiv">
+          <img src="pp1.png" alt="Loading" srcset="">
+          <div class="av">
+            <img src="pp2.png" alt="Loading" srcset="">
+          </div>
+        </div>
+        <span id="ppshadow" class="flip"></span>
+      </div>
+    </div>
+  </div>
+  <div class="about" id="about">
+    <div class="container">
+      <div class="aimg">
+        <img id="changeimage" src="cer.gif" alt="">
+      </div>
+      <div class="acontent">
+         <h2>About Me</h2>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ab sed ratione sint exercitationem repellendus odio quis dolorem placeat eaque consequuntur rerum, nemo explicabo officiis ipsum. Beatae delectus reprehenderit maxime.</p>
+         <div class="tabs">
+          <ul>
+            <li><p class="tablinks active-link" onclick="opentab('qual')">Qualification</p></li>
+            <li><p class="tablinks" onclick="opentab('skills')">Skills</p></li>
+            <li><p class="tablinks" onclick="opentab('soft')">Soft skills</p></li>
+          </ul>
+          <div class="tab-content active-tab" id="qual">
+            <ul>
+              <li><span>SSC | 2018</span><br>St Mary's High School | 83.60%</li>
+              <li><span>HSC | 2020</span><br>St Mary's Junior College | 83.23%</li>
+              <li><span>B.E Computer Science Engineering | Pursuing</span><br>Rizvi College Of Engineering</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="skills">
+            <ul>
+              <li><span>Programming Languages:</span>Proficiency in languages like Python, Java, C, JavaScript, and Object Oriented Programming</li>
+              <li><span>Algorithms and Data Structures:</span> Strong understanding of algorithms, data structures (arrays, linked lists, trees, graphs), and their applications in problem-solving and optimization.</li>
+              <li><span>Web Development:</span> Front-end (HTML, CSS, JavaScript) and back-end (Node.js) development for creating interactive and responsive web applications.</li>
+              <li><span>Database Management:</span> Knowledge of database systems like MySQL, PostgreSQL and their query languages for data storage and retrieval.</li>
+              <li><span>Software Engineering:</span> Understanding of software development methodologies (Waterfall, Scrum), and tools for collaborative coding (GitHub).</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="soft">
+            <ul>
+              <li><span>Communication:</span> Clear communication skills for sharing ideas and listening to others as it helps in overcoming problrms.</li>
+              <li><span>Problem-Solving:</span> Ability to analyze problems, and come up with efficient methods to tackle problems.</li>
+              <li><span>Leadership:</span>Maintaining the integrity between team members, take initiative, assign members the proper task according to their skills</li>
+              <li><span>Creativity:</span>Ability to come up with innovative ideas that enhances the quality of the project</li>
+            </ul>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="work" id="work">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="tab-works">
+        <div class="prjs">
+          <img src="pj1.png" alt="">
+          <div class="pinfo">
+            <h3>Waste Food Management System</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odio id dolorem corrupti ipsam error</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="prjs">
+          <img src="pj2.png" alt="">
+          <div class="pinfo">
+            <h3>Smart Parking System</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odio id dolorem corrupti ipsam error</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="prjs">
+          <img src="pj3.png" alt="">
+          <div class="pinfo">
+            <h3>Music Recommendation</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odio id dolorem corrupti ipsam error</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="conmain">
+        <div class="lcon">
+          <div class="content">
+            <p><i class="fa-solid fa-phone"></i> Phone</p>
+            <p>+917738825386</p><br>
+            <p><i class="fa-solid fa-envelope"></i> Email</p>
+            <p>najafshaikh1705@gmail.com</p><br>
+            <a href="https://github.com/Najaf1705" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/najaf-shaikh-9955bb204/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/_.najaf17._/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/__Najaf17__" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_.najaf17._/" target="_blank"><i class="fa-brands fa-instagram"></i></a><br>
+            <button class="downb">Download CV</button>
+          </div>
+        </div>
+        <div class="rcon">
+          <form name="submit-to-google-sheet">
+            <input type="name" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your email" required>
+            <textarea required name="Message" id="mess" cols="50" rows="7" placeholder="Your Message"></textarea>
+            <button type="submit" class="sumb">Submit</button>
+            <span id="messent"></span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Najaf 2023</p>
+  </div>
+
+</body>
+<script src="script.js"></script>
+<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
+<script src="https://kit.fontawesome.com/eadd1ee140.js" crossorigin="anonymous"></script>
+</html>
