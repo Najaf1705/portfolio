@@ -516,6 +516,10 @@ nav ul li a:hover::after{
   top: 10%;
 }
 
+.lcon .content p{
+  margin-top: 3%;
+}
+
 .lcon i{
   margin-right: 3%;
   color: #ff3551;
